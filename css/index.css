@@ -1,0 +1,14 @@
+h5{
+    color: black;
+}
+.navbar-default{
+    background-color: #0b695e;
+    color: white,
+
+}
+.navbar-collapse .navbar-nav{
+    color: white,
+}
+.col-lg-2 .col-lg-offset-8{
+    color: #0b695e;
+}
