@@ -1,7 +1,19 @@
 h5{
     color: black;
 }
-.navbar-default{
+.navbar-default .nav li>a{
+    color: white;
+}
+.navbar-default .nav li>a:hover{
+    color: yellow;
+}
+.navbar-default .navbar-brand{
+    color: white;
+}
+.navbar-default .navbar-brand:hover{
+    color: yellow;
+}
+.navbar{
     background-color: #0b695e;
     color: white,
 
@@ -12,23 +24,80 @@ h5{
 .col-lg-2 .col-lg-offset-8{
     color: #0b695e;
 }
-.card-block{
-    border: 1px solid grey;
-    width: 250px;
-    height: 130px;
-    box-shadow: 10px;
+.button_lg{
+    background-color: #00CED1;
+    color: white;
+    width: 180;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 18px;
+    -webkit-transition: all ease 3s;
+    border: 1px solid #00CED1;
+}
+.button_lg:hover{
+    background-color: white;
+    color: #00CED1;
+    border: 5px solid #00CED1;
+ }
+.button_md{
+    background-color: #007366;
+    color: white;
+    width: 180;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 18px;
+    border: 1px solid #007366;
+    -webkit-transition: all ease 3s;
+}
+.button_md:hover{
+    background-color: white;
+    color: #007366;
+    border: 5px solid #007366;
+}
+.card{
+    box-shadow: 0px 0px 1px 0px grey;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 #circle {
-    /* background: goldenrod; */
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-left: 10px;
     margin-top: 10px;
   
+}
+#circle_1{
+    background-color:#007366; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#circle_2{
+    background-color:#0d1691; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#circle_3{
+    background-color:rgb(82, 9, 20); 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card1{
+    box-shadow: 1px 1px 1px 1px red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
 }
 b{
     margin-left: 10px;
